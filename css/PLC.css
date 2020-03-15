@@ -1,0 +1,34 @@
+#header {
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    box-sizing: border-box;
+    margin: 0.5%;
+    padding: 0%;
+    border: 0%;
+    color: white;
+    float: left;
+    background-position: center top;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+}
+
+#lista-nav {
+    box-sizing: border-box;
+    background-color: blue;
+    display: flex;
+    line-height: 200%;
+    line-break: loose;
+}
+
+#logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    padding-left: 0%;
+    margin-left: 2%;
+    float: left;
+    width: 10%;
+
+}
