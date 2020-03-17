@@ -1,33 +1,156 @@
-#header {
+body {
+    overflow: visible;
+    margin: 5%;
+    padding: 8%;
+    
+}
+
+nav {
+    background-color: darkgray;
     width: 100%;
-    background-color: red;
-    position: fixed;
-    box-sizing: border-box;
-    margin: 0.5%;
+}
+
+li {
+    display: inline-block;
+}
+
+header {
+    background-color: darkgreen;
+    width: 100%;
+}
+
+#guias-largas {
+    background-color: darkmagenta;
+    float: right;
+    width: 80%;
+    height: 500px;
+}
+
+aside {
+    background-color: darkturquoise;
+    float: left;
+    width: 20%;
+    height: 500px;
+}
+
+#tips-locales {
+    width: 100%;
+    height: 150px;
+}
+
+.tips-locales {
+    background-color: yellowgreen;
+    width: 23%;
+    height: 100%;
+    display: inline-block;
+    margin: 0%;
+    
+
+}
+
+footer {
+    background-color: wheat;
+    width: 100%;
+}
+
+figure {
+    width: 50%;
+    padding: auto;
+}
+
+
+/* LETRA */
+
+/* p { */
+    /* font-family: Arial, Helvetica, sans-serif; */ /* tipo de fuente */
+    /* font-size: 16px; */ /* tamaño */
+    /* font-weight: normal; */ /* negrita */
+    /* font-style: oblique; */ /* cursiva, normal, mayúscula */
+/* } */
+
+/* TEXTO */
+
+ /* P { */ 
+    /* text-align: center; */ /*alineacion izq, der, centro, justificada */
+    /* text-align-last: justify; */ /*alineación última línea párrafo */
+    /* text-indent: 1%; */ /* sangria */
+    /* letter-spacing: 1%; */ /* espacio entre letras*/
+    /* word-spacing: 2%; */ /* espacio entre palabras */
+    /* line-height: 1%; */ /* espacio entre lineas */
+    /* vertical-align: baseline; */ /* alinea verticalmente. Se usa para alinear imagenes gralmente*/
+    /* text-decoration: none; */ /* para subrayado, tachado, etc */
+
+/* } */
+
+/* USAR LETRA RARA */
+
+@font-face {
+    font-family: "letra-fantasma";
+    src: url(../ttf/Holtzschue.ttf); /* biblioteca de fuentes: http://moorstation.org/typoasis/designers/steffmann/index.htm#H */
+}
+
+h1 {
+    font-family: letra-fantasma;
+}
+
+/* CAJAS */ /* FILTROS */
+
+main {
+    background-color: thistle;
+    /* width: fit-content; */ /* ancho del elemento. Por defecto ocupa TODO el ancho de su contenedor */
+    /* height: auto; /* /*alto de un elemento. Auto es que adopta la altura de su contenedor */
+    /* overflow: visible; */ /* define qué hacer con el contenido que supere los límites del contenedor (visible: se ven ; hidden: esconde lo que sobresale; scroll: muestra barras laterales para navegar por el contenido; auto: decide el navegador) */
+    /* margin: 1%;*/ /* define el espacio que hay entre este elemento y los de de al lado. La opción AUTO centra el contenido en su contenedor */
+    /* padding: 1%; */ /* define el espacio que hay entre el borde del contenedor y el contenido */
+    /* background-image: url(../img/pepe.JPG); */ /* imagen de fondo */
+    /* background-position: right; */ /* posicion de comienzo de imagen de fondo */
+    /* background-size: contain; */ /*cover agranda el ancho o el alto hasta cubrir todo el elemento. Contain achica el ancho o el alto hasta que toda la imagen entre en el elemento. */
+    /* background-repeat: no-repeat; */ /*distribución de la imagen */
+    /* background-origin: padding-box; */ /* determina cual es el borde para la imagen de fondo */
+    /* background-clip: content-box; */ /* area a cubrir por el fondo */
+    /* background-attachment: scroll; */
+    /*FILTROS*/
+    
+
+
+}
+/*
+filter: blur(0); /* desenfoca */
+/*    filter: grayscale(0); /* escala de grises */
+  /*  filter: drop-shadow(1px, 1px, 3px, red); /* sombra. No se como se usa */
+  /*  filter: sepia(0); /* sepia */
+    /*filter: brightness(0); /* brillo */
+    /*filter: contrast(0); /* contraste */
+    /*filter: hue-rotate(180deg); /* invertir colores */
+    /*filter: saturate(0); /* saturacion */ 
+    /*filter: opacity(1); /* transparencia */
+
+    /*
+#guias-largas {
+    
+    /* background-image: url(../img/pepe.JPG); */ /* imagen de fondo */
+    /* background-position: right; */ /* posicion de comienzo de imagen de fondo */
+    /* background-size: contain; */ /*cover agranda el ancho o el alto hasta cubrir todo el elemento. Contain achica el ancho o el alto hasta que toda la imagen entre en el elemento. */
+    /* background-repeat: no-repeat; */ /*distribución de la imagen */
+    /* background-origin: content-box; */ /* determina cual es el borde para la imagen de fondo */
+    /* background-clip: padding-box; */ /* area a cubrir por el fondo */
+/*} 
+
+/* TRANSFORMACIONES */
+/*
+aside {
+    background-color: blueviolet;
+    margin: 0%;
     padding: 0%;
-    border: 0%;
-    color: white;
-    float: left;
-    background-position: center top;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 200%;
-}
+    color: black;
+    transform: scale(1); /* escala */
+ /*   transform: rotate(45deg); /* rotacion */
+ /*   transform: skew(0deg); /* inclinacion */
+ /*   transform: translate(20px, 30px); /* traslado */
+/* CAJAS */
+ /*   float: left;
+}*/
 
-#lista-nav {
-    box-sizing: border-box;
-    background-color: blue;
-    display: flex;
-    line-height: 200%;
-}
 
-#logo {
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center top;
-    padding-left: 0%;
-    margin-left: 2%;
-    float: left;
-    width: 10%;
 
-}
+
